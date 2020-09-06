@@ -1,0 +1,50 @@
+
+.header-image {
+    margin-top: -20px;
+
+    background: url('/public/img/accounting.jpg') no-repeat top center;
+    background-size: cover;
+    min-height: 500px;
+
+    .label-bg {
+        background: rgba(#000, 0.7);
+    }
+
+    .label {
+        z-index: 1;
+        text-align: center;
+
+        h1, p {
+            padding: 15px 30px;
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: 100;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 3em;
+            border: 5px solid #fff;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    }
+}
+
+.content-site-index {
+    .btn.login {
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: 100;
+        border-radius: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-width: 5px;
+    }
+}

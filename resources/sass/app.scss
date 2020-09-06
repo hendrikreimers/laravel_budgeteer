@@ -1,0 +1,12 @@
+
+// npm install font-awesome --save
+@import "~font-awesome/scss/font-awesome.scss";
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~flatpickr/dist/themes/airbnb.css';
+
+@import 'components/nav.scss';
+@import 'components/pages/start.scss';
+@import 'components/general.scss';
+@import 'components/tables.scss';
+@import 'components/form.scss';

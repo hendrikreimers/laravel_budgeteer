@@ -1,0 +1,15 @@
+
+.table-responsive {
+    padding: 3px;
+
+    table.table {
+        box-shadow: 0 0 3px rgba(#000, 0.7);
+        background-color: #fff !important;
+
+        border-top: 3px solid #cfcfcf;
+
+        th a {
+            color: #000;
+        }
+    }
+}

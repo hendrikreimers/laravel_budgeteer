@@ -1,0 +1,52 @@
+#app {
+    padding-top: 20px;
+}
+
+a[data-toggle="collapse"] {
+    &::before {
+        width: 15px;
+        content: '\F0D7';
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    &.collapsed::before {
+        content: '\F0DA';
+    }
+
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    width: 100%;
+    display: block;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h1 {
+    position: relative;
+    text-transform: uppercase;
+    &::after {
+        content:'';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 2px;
+        border: 2px solid #b91d19;
+        height: 1px;
+        width: 30px;
+    }
+}
+
+h1 ~ h2 {
+    font-size: 1.5em;
+    padding-left: 40px;
+    margin-top: -0.75em;
+}
